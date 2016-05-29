@@ -1,0 +1,239 @@
+/*
+Theme Name:		Crafty Lawyer
+Theme URI:		http://craftythemes.com
+Description:    CraftyLawyer is an excellent laywer wordpress theme by craftythemes.com
+Author:         CraftyThemes
+Author URI:		http://craftythemes.com
+Template:       Azkaban
+Version:        1.1
+*/
+
+@import url("../Azkaban/style.css");
+
+body { 
+	color: #333;
+	background: #fff;
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 22px;
+	font-size: 14px;
+} 
+
+
+/***********************************************************/
+/* Typography */
+/***********************************************************/
+h1, h2, h3, h4, h5, h6 {
+	color: #1a1a1a;
+	font-family: 'Abril Fatface', sans-serif;
+	font-weight: 400;
+	margin: 10px 0px;
+	padding: 0;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 28px;
+    line-height: 28px;
+}
+
+h2 {
+	font-size: 22px;
+    line-height: 22px;
+}
+
+h3 {
+	font-size: 16px;
+    line-height: 20px;
+}
+
+a {
+	color: #0489C0;
+}
+
+a:hover {
+	color: #202A40;
+}
+
+/*************************************************************************/
+/* Topbar */
+/*************************************************************************/
+#az-topbarwrap {
+	background-color: #202A40;
+	color: #fff;
+	min-height: 40px;
+	font-size: 0.9em;
+}
+
+/*************************************************************************/
+/* Header */
+/*************************************************************************/
+#az-headerwrap {
+	border-bottom: 1px solid #fff;
+}
+
+
+
+/*************************************************************************/
+/* Navigation */
+/*************************************************************************/
+#az-navigationwrap {
+	border-bottom: 0px solid #E1E1E1;
+	font-family: 'Abril Fatface', sans-serif;
+}
+
+#az-navigationright {
+	float: right;
+	max-height: 100px;
+	font-family: 'Abril Fatface', sans-serif;
+	font-size: 1.4em;
+}
+
+.az-sitenav a {
+	color: #182133;
+}
+
+.az-sitenavr a {
+	color: #182133;
+}
+
+.az-sitenav li.current-menu-item a, .az-sitenavr li.current-menu-item a {
+	color: #01578F;
+}
+
+.az-sitenav li:hover > a,
+.az-sitenav ul ul li:hover > a,
+.az-sitenavr li:hover > a,
+.az-sitenavr ul ul li:hover > a {
+	color: #01578F;
+}
+
+/* Second level */
+.az-sitenav ul ul, .az-sitenavr ul ul {
+	background-color: #fff;
+}
+
+.az-sitenav ul ul li, .az-sitenavr ul ul li {
+	color: #182133;
+	border-top: 1px solid #eee;
+}
+
+.az-sitenav ul ul a, .az-sitenavr ul ul a {
+	color: #182133;
+}
+
+.az-sitenav li.current-menu-item ul a, .az-sitenavr li.current-menu-item ul a {
+	color: #01578F;
+}
+
+
+
+
+
+
+/*************************************************************************/
+/* Footer Widgets */
+/*************************************************************************/
+#az-footerwidgetwrap {
+	color: #fff;
+	background-color: #0489C0;
+	text-shadow: -1px -1px 0px #01578F;
+}
+
+#az-footerwidgets h2 {
+	color: #f1f1f1;
+}
+
+#az-footerwidgets h3, #az-footerwidgets h4, #az-footerwidgets h5, #az-footerwidgets h6  {
+	color: #f1f1f1;
+}
+
+#az-footerwidgets .widget_title span {
+	background: none repeat scroll 0 0 #0489C0;
+	padding-right: 5px;
+}
+
+#az-footerwidgets a {
+	color: #fff;
+}
+
+#az-footerwidgets a:hover {
+	color: #202A40;
+	text-shadow: -1px -1px 0px #0489C0;
+}
+
+/*************************************************************************/
+/* Footer */
+/*************************************************************************/
+#az-footerwrap {
+	background-color: #01578F;
+	font-size: 0.8em;
+}
+
+#az-footer p {
+	color: #fff;
+}
+
+#az-footer a {
+	color: #01BCF3;
+	text-decoration: none;
+}
+
+#az-footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+/*************************************************************************/
+/* Mobile Navigation Styles */
+/*************************************************************************/
+nav {  
+	background-color: #01578F !important;
+}
+
+nav a {  
+	color: #fff !important;
+}  
+    
+nav li a {  
+	border-right: 1px solid #0489C0 !important;
+	border-left: 1px solid #0489C0 !important;
+}  
+
+nav li:nth-child(even) a {  
+	border-left: 0px solid #0489C0 !important;
+}  
+
+nav li:last-child a {  
+	border-right: 1px solid #0489C0 !important;
+}  
+    
+nav a:hover, nav a:active {  
+	color: #0489C0 !important;
+}  
+
+@media screen and (max-width: 769px) {  
+	#az-navigationwrap {
+		background-color: #01578F !important;
+	}
+	nav li a {  
+		border-bottom: 1px solid #0489C0 !important;
+	}
+}  
+@media only screen and (max-width : 480px) {  
+	#az-navigationwrap {
+		background-color: #01578F !important;
+	}
+}
+@media only screen and (max-width : 320px) {  
+	#az-navigationwrap {
+		background-color: #01578F !important;
+	}
+	nav li a {  
+		border-bottom: 1px solid #0489C0 !important;
+	}  
+	nav li:nth-child(even) a {  
+		border-left: 1px solid #0489C0 !important;
+	}
+}  
